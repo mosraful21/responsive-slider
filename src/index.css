@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.child {
+    display: none;
+}
+
+.parent:hover .child {
+    display: block;
+}
+
+.chi {
+    display: none;
+}
+
+.parent:hover .chi {
+    display: block;
+}
+
+img {
+    opacity: 10;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+
+.parent:hover img {
+    opacity: 0.4;
+}
+
+.parent:hover .chi {
+    opacity: 1;
+}
