@@ -159,18 +159,6 @@ const FirstSlider = () => {
             >
               <div className="relative par">
                 <img src={item.img} alt={item.name} className="w-auto h-auto" />
-
-                <div className="absolute top-1/2 right-16 chi space-x-2">
-                  <span className="hover:text-orange-500 text-xl cursor-pointer font-bold bg-gray-200 rounded-full py-1 px-2">
-                    <ion-icon name="heart-outline"></ion-icon>
-                  </span>
-                  <span className="hover:text-orange-500 text-xl cursor-pointer font-bold bg-gray-200 rounded-full py-1 px-2">
-                    <ion-icon name="sync-outline"></ion-icon>
-                  </span>
-                  <span className="hover:text-orange-500 text-xl cursor-pointer font-bold bg-gray-200 rounded-full py-1 px-2">
-                    <ion-icon name="search-outline"></ion-icon>
-                  </span>
-                </div>
               </div>
 
               {item.discount ? (
